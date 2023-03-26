@@ -15,7 +15,6 @@ uint64_t fact(uint16_t n) {
   for (int i = 2; i <= n; i++)
     factor *= i;
   return factor;
-
 }
 
 double calcItem(double x, uint16_t n) {
